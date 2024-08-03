@@ -66,11 +66,11 @@ python diamondify.py [-h] (-f FILE | -d DIRECTORY) [-o OUTPUT] -m MODEL
 
 Clean, and improve the code of a single file ( btw supports any programming language):
 ```shell
-python diamondify.py -f ugly_code.py -m gpt-4o
+python main.py -f ugly_code.py -m gpt-4o
 ```
 Improve the code of a whole directory:
 ```shell
-python diamondify.py -d messy_project -o shiny_project -m gpt-4o
+python main.py -d messy_project -o shiny_project -m gpt-4o
 ```
 _Note - By default all the code will be saved in a new directory called as output inside the working directory of the terminal_
 ## 🚀 Watch the Magic Happen!
